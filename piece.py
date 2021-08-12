@@ -2,7 +2,7 @@ class Piece:
     def __init__(self):
         self.board = None
         self.i = None #row
-        self.j = None #column
+        self.j = None #column 
 
     def isOnBoard(self): #checks if piece is on the board
         return self.board != None 
